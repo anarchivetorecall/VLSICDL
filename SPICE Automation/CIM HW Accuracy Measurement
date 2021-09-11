@@ -10,6 +10,7 @@ args = parser.parse_args()
 num_iter = 1
 exp_iter = args.i
 
+
 # First simulation is needed.
 os.system("python3.8 Layer1_inputs_weights_settings.py")
 os.system("python3.8 Layer1_SPICE_Automation.py")
